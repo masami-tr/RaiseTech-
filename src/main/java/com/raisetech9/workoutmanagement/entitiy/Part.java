@@ -22,7 +22,7 @@ public class Part {
         return part;
     }
 
-public String getExercise() {
+    public String getExercise() {
         return exercise;
     }
 }
