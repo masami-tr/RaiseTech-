@@ -6,12 +6,12 @@ public class Part {
 
     private String part;
 
-   // private String exercise;
+    private String exercise;
 
     public Part(int id, String part, String exercise) {
         this.id = id;
         this.part = part;
-       // this.exercise = exercise;
+        this.exercise = exercise;
     }
 
     public int getId() {
@@ -22,7 +22,7 @@ public class Part {
         return part;
     }
 
-//public String getExercise() {
-      //  return exercise;
-   // }
+    public String getExercise() {
+        return exercise;
+    }
 }
